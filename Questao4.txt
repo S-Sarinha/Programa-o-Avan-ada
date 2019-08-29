@@ -1,0 +1,9 @@
+ p = &i; // ponteiro aponta para o endereço da variavel [CORRETO] 
+ *q = &j; // ponteiro recebe o valor do endereço da variavel [ERRADO: *q é o conteúdo do endereço apontado por q (isto é: um int) que receberá o endereço da variável j] 
+ p = &*&i; // [&j: endereço de j; *&j: conteúdo do endereço de j, ou seja: j; &*&j: endereço do conteúdo apontado pelo endereço de j, ou seja: o endereço de j] 
+ i =(*&)j; // i não é ponteiro [Sim, i não é ponteiro,mas se a ordem fosse *(&j) então i receberia o conteúdo de j; o mesmo que i = j] 
+
+ i = *&j; // i não é ponteiro [Sim, i não é ponteiro mas de acordo com a precedência dos operadores é equivalente a *(&j), ou seja: j] 
+ i = *&*&j; // i não é ponteiro [sim, i não é um ponteiro mas *&j é um int, assim como *&*&j que é o próprio j] 
+ q = *p; // ERRADO: *p é um int e não um ponteiro para int 
+ i = (*p)++ + *q // CORRETO: (conteúdo de p incrementado de 1) + conteúdo de q

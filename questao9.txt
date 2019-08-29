@@ -1,0 +1,19 @@
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+    printf("%d ",*(vet+i));
+  }
+}
+
+//Este programa imprime os valores que estão no vetor vet através do uso de ponteiro.
+
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+    printf("%x ",vet+i);
+  }
+}
+
+//Lista em hexadecimal os endereços de memória de cada um dos elementos do vetor vet

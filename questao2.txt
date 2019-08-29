@@ -1,0 +1,5 @@
+a) Verdadeiro: p aponta para o mesmo endereço de i. 
+
+b) -2. *p é o valor da variável i (3) e *q o da variável j (5). 
+
+c) *p é 3 e *q é 5 portanto 3 - 3/(5) + 7, como é uma divisão de inteiros 3/5 dá 0, portanto: 3 - 0 + 7 = 10

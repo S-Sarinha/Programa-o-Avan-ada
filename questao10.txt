@@ -1,0 +1,11 @@
+x for declarado como char?
+ 4092+1; 4092+2; 4092+3 
+
+x for declarado como int?
+ 4092+2; 4092+4; 4092+6 
+
+x for declarado como float?
+ 4092+4; 4092+8; 4092+12 
+
+x for declarado como double?
+ 4092+8; 4092+16; 4092+24

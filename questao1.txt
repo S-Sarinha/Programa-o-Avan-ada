@@ -1,0 +1,1 @@
+	Os Ponteiros são utilizados exatamente como endereços de memória e assim é possível acessar posições desta memória ao qual o usuário deseje modificar os valores contidos nela. Os  ponteiros veta cópias desnecessárias.
